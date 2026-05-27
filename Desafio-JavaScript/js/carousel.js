@@ -26,7 +26,7 @@ class Carousel {
                     title.innerHTML += `<a href= "${element.pagina}">${element.texto}</a>`      
                 });
                 Carousel.Render(); //start
-                Carousel._interval = setInterval(function () { Carousel.Next(); }, 2000);
+                Carousel._interval = setInterval(function () { Carousel.Next(); }, 5000);
             }
 
         } else {
@@ -87,7 +87,3 @@ class Carousel {
 
     }
 }
-
-
-
-
